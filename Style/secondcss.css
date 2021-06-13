@@ -11,13 +11,14 @@
 body{
     background: var(--preta);
     font-family:'Arial ', Times, serif  ;
-    color: rgb(255, 255, 255);
+    color: rgb(3, 3, 3);
+    font-size: 80px;
 }
 
 header .container{
     display:flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: space-between;    
 }
 
@@ -42,10 +43,10 @@ header nav a:hover{
 
 /*elementos do filme pricipal*/
 .filme-principal{
-    font-size: 16px;
-    background: url('C:/workspace/DIO-netflix/Img/htgawam.jpg');
+    font-size: 17px;
+    background: url('C:/workspace/DIO-netflix/Img/annelize.jpg');
 
-    height: 520px;
+    height: 700px;
     background-size: cover;
 
     display: flex;
@@ -55,8 +56,8 @@ header nav a:hover{
 }
 
 .filme-principal .descricao{
-    margin-top: 10px;
-    margin-bottom: 90px;
+    margin-top: 5px;
+    margin-bottom: 80px;
 
 }
 
